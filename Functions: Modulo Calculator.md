@@ -10,10 +10,19 @@ To write a Python program that defines a function which accepts two values and r
 4. Get two integer inputs from the user.
 5. Call the `result` function with the user-provided values.
 
-## 🧾 Program
+## 🧾 Program:
+```python
+def result(a, b):
+    print("Modulo:", a % b)
 
-Add code Here
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
 
-## Output
+result(a, b)
+```
+## Output:
+<img width="492" height="202" alt="image" src="https://github.com/user-attachments/assets/0bbe748c-822a-40dd-bdb8-e8cedbd43844" />
 
-## Result
+
+## Result:
+Thus, the program is executed successfully.
